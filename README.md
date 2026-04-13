@@ -1,72 +1,61 @@
-# 🛠️ PTMEDIA - THE ULTIMATE FACEBOOK DISCOVERY ENGINE (V3.0) 🛠️
+# PTMEDIA - FACEBOOK OLD ACCOUNT TOOL (V3.0)
 
-Hello and welcome! We are proud to introduce **PTMEDIA**, the industry's premier solution for high-precision Facebook account discovery and recovery. Built for performance and reliability, PTMEDIA is the preferred choice for professionals who demand excellence in their digital operations.
+Welcome to the official repository of **PTMEDIA**, a specialized software solution for Facebook account discovery and recovery. This tool is designed to be efficient, stable, and highly effective for professional digital operations.
 
 ---
 
-## 🚀 INTRODUCING PTMEDIA V3.0
-PTMEDIA is a high-speed, multi-threaded exploitation tool designed to recover old Facebook accounts from the 2004-2024 era. Our software bypasses modern security barriers using advanced API injection techniques, providing you with a seamless and successful experience.
+## 🚀 INTRODUCTION
+PTMEDIA V3.0 is a high-speed, multi-threaded tool built specifically for scanning and recovering old Facebook accounts (2004-2024 era). It utilizes modern API methods to ensure stability and high success rates across different environments.
 
 ---
 
 ## 🔥 KEY FEATURES
 
-- ✅ **Cookieless Verification**: No clone accounts or bait cookies required. Our internal Graph-engine handles profile status checks autonomously using the latest advanced methods.
-- ✅ **Dual-Method Force**: Choose between **Method A (B-Graph)** and **Method B (B-API)** to ensure the highest success rate against different security layers.
-- ✅ **Ultra-Fast Speed**: Designed with a high-concurrency multi-threaded architecture for massive throughput even on low-end devices.
-- ✅ **Live Telegram Synchronization**: Integrated with professional Telegram Bot reporting for instant results delivery to your mobile device.
+- ✅ **Advanced Verification**: High-accuracy status checking without the need for additional clone accounts or bait cookies.
+- ✅ **Dual-Method Force**: Supports multiple login protocols to ensure the best results against various security filters.
+- ✅ **High-Performance**: Multi-threaded engine for maximum speed and efficiency on both mobile and PC.
+- ✅ **Telegram Sync**: Instant notifications for successful results sent directly to your configured Telegram Bot.
 - ✅ **Structured Output**: Automatically organizes success hits in a clean `UID | Pass | Year | Status` format in `PTMEDIA-OK.txt`.
 
 ---
 
-## 🎮 CORE OPERATING MODES
+## 🎮 OPERATING MODES
 
-1.  **OPTION A: OLD ACCOUNT TOOL (AUTO SERIES)**
-    - Automatically generates and cracks UIDs based on historical Facebook series.
-    - Targeting: **2004-2007**, **2009**, **2010-2014**, and **Mixed Series**.
+1.  **OPTION A: AUTO DISCOVERY (SERIES)**
+    - Automatically targets UIDs based on specific historical year ranges: **2004-2007**, **2009**, **2010-2014**, and **Mixed Series**.
 2.  **OPTION B: CRACK FROM FILE UID**
-    - Import your own custom target list from a `.txt` file for a focused extraction attack.
+    - Import your own custom `.txt` list of UIDs for a targeted scan operation.
 
 ---
 
-## 📖 HOW TO USE (STEP-BY-STEP)
+## 📖 HOW TO USE
 
-Follow this professional protocol to maximize your results:
+Follow these steps for the best experience:
 
-- **STEP 1**: Ensure your environment is ready (Install Python and required libraries).
-- **STEP 2**: Activate **CLOUDFLARE 1.1.1.1 VPN** (This is a mandatory requirement for IP bypass).
-- **STEP 3**: Open the **(A) SETTINGS** menu if you want to use Telegram (Optional). Input your Token and Chat ID.
-- **STEP 4**: Return to the main menu and select **(B) START SCAN**.
-- **STEP 5**: Select your Operation Mode (Series or File) and choose your Attack Method (A or B).
-- **STEP 6**: Monitor your console and Telegram bot for incoming success hits!
+- **STEP 1**: Ensure your device has Python 3.11+ installed.
+- **STEP 2**: Activate **CLOUDFLARE 1.1.1.1 VPN** before running the tool (Mandatory for IP bypass).
+- **STEP 3**: Open the **(A) SETTINGS** menu if you want to use Telegram (Optional). Enter your Token and Chat ID.
+- **STEP 4**: Select **(B) START SCAN** from the main menu.
+- **STEP 5**: Choose your scanning mode and attack method.
+- **STEP 6**: Monitor the console or your Telegram bot for update results.
 
 ---
 
-## 📥 FULL INSTALLATION GUIDE
+## 📥 INSTALLATION GUIDE
 
-PTMEDIA V3.0 is optimized for multiple environments. Follow the steps below for your specific platform:
-
-### 📱 For Android (Termux)
-Copy and paste these commands sequentially:
+### For Android (Termux)
 ```bash
-# Update and install dependencies
 pkg update && pkg upgrade -y
 pkg install python git -y
-
-# Clone the official repository
 git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
 cd PTMEDIA-OLD-FB
-
-# Install required Python libraries
 pip install requests beautifulsoup4 urllib3
-
-# Launch the tool
 python scan.py
 ```
 
-### 💻 For Windows
-1.  **Download Python**: Ensure you have Python 3.11+ from [Python.org](https://www.python.org/).
-2.  **Clone / Download**: Download the project through Git:
+### For Windows
+1.  **Install Python**: Download from [Python.org](https://www.python.org/).
+2.  **Download Tool**:
     ```powershell
     git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
     cd PTMEDIA-OLD-FB
@@ -75,27 +64,26 @@ python scan.py
     ```powershell
     pip install requests beautifulsoup4 urllib3
     ```
-4.  **Execute**:
+4.  **Launch**:
     ```powershell
     python scan.py
     ```
 
 ---
 
-## ⚠️ MANDATORY WARNING
+## ⚠️ IMPORTANT NOTE
 
 > **YOU MUST USE CLOUDFLARE 1.1.1.1 VPN.**  
-> Facebook locks repeated login attempts from a single IP address. Using the 1.1.1.1 VPN is critical for the tool to function. **Without VPN, you will receive zero results.**
+> Without the VPN, the tool will not produce any results as Facebook blocks repeated login attempts from a single IP address.
 
 ---
 
-## 🌟 OUR COMMITMENT & SUPPORT
+## 🌟 COMMITMENT & SUPPORT
 
-We are committed to your success. **PTMEDIA** is engineered to be the most reliable and high-performing tool in its class.
-- 🎁 **FREE TRIAL**: Want to test the power first? Contact của Admin @PTMEDIA2 để nhận session thử nghiệm miễn phí.
+- 🎁 **FREE TRIAL**: Contact the Admin to get a free test session.
 - 👤 **Developer**: Phạm Xuân Tiến (PTMEDIA)
 - ✈️ **Telegram**: [https://t.me/PTMEDIA2](https://t.me/PTMEDIA2)
 - 💬 **WhatsApp**: +84877667153
 
 ---
-**🛠 Tool by PTMEDIA — Demonic cunning is ahead. No to peace, yes to demonic malevolent destruction. FIRE 🔥**
+**PTMEDIA TOOL — Professional Solution for Digital Operations.**
