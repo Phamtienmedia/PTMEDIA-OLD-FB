@@ -42,15 +42,44 @@ Follow this professional protocol to maximize your results:
 
 ---
 
-## 📥 QUICK SETUP COMMANDS
+## 📥 FULL INSTALLATION GUIDE
 
+PTMEDIA V3.0 is optimized for multiple environments. Follow the steps below for your specific platform:
+
+### 📱 For Android (Termux)
+Copy and paste these commands sequentially:
 ```bash
-# Install dependencies:
+# Update and install dependencies
+pkg update && pkg upgrade -y
+pkg install python git -y
+
+# Clone the official repository
+git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
+cd PTMEDIA-OLD-FB
+
+# Install required Python libraries
 pip install requests beautifulsoup4 urllib3
 
-# Run PTMEDIA Tool:
+# Launch the tool
 python scan.py
 ```
+
+### 💻 For Windows
+1.  **Download Python**: Ensure you have Python 3.11+ from [Python.org](https://www.python.org/).
+2.  **Clone / Download**: Download the project as a ZIP or use Git:
+    ```powershell
+    git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
+    cd PTMEDIA-OLD-FB
+    ```
+3.  **Setup Environment**:
+    ```powershell
+    pip install requests beautifulsoup4 urllib3
+    ```
+4.  **Execute**:
+    ```powershell
+    python scan.py
+    ```
+
 
 ---
 
