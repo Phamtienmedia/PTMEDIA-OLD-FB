@@ -11,10 +11,10 @@ PTMEDIA is a high-speed, multi-threaded exploitation tool designed to recover ol
 
 ## 🔥 KEY FEATURES
 
-- ✅ **Cookieless Verification**: No clone accounts or bait cookies required. Our internal Graph-engine handles profile status checks autonomously.
+- ✅ **Cookieless Verification**: No clone accounts or bait cookies required. Our internal Graph-engine handles profile status checks autonomously using the latest advanced methods.
 - ✅ **Dual-Method Force**: Choose between **Method A (B-Graph)** and **Method B (B-API)** to ensure the highest success rate against different security layers.
-- ✅ **Ultra-Fast Speed**: Designed with a high-concurrency multi-threaded architecture for massive throughput.
-- ✅ **Real-Time Sync**: Integrated with professional Telegram Bot reporting for instant results delivery.
+- ✅ **Ultra-Fast Speed**: Designed with a high-concurrency multi-threaded architecture for massive throughput even on low-end devices.
+- ✅ **Live Telegram Synchronization**: Integrated with professional Telegram Bot reporting for instant results delivery to your mobile device.
 - ✅ **Structured Output**: Automatically organizes success hits in a clean `UID | Pass | Year | Status` format in `PTMEDIA-OK.txt`.
 
 ---
@@ -22,7 +22,7 @@ PTMEDIA is a high-speed, multi-threaded exploitation tool designed to recover ol
 ## 🎮 CORE OPERATING MODES
 
 1.  **OPTION A: OLD ACCOUNT TOOL (AUTO SERIES)**
-    - Automatically generates and cracks UIDs from specified years.
+    - Automatically generates and cracks UIDs based on historical Facebook series.
     - Targeting: **2004-2007**, **2009**, **2010-2014**, and **Mixed Series**.
 2.  **OPTION B: CRACK FROM FILE UID**
     - Import your own custom target list from a `.txt` file for a focused extraction attack.
@@ -35,7 +35,7 @@ Follow this professional protocol to maximize your results:
 
 - **STEP 1**: Ensure your environment is ready (Install Python and required libraries).
 - **STEP 2**: Activate **CLOUDFLARE 1.1.1.1 VPN** (This is a mandatory requirement for IP bypass).
-- **STEP 3**: Open the **(A) SETTINGS** menu in the tool to input your Telegram Token and Chat ID.
+- **STEP 3**: Open the **(A) SETTINGS** menu if you want to use Telegram (Optional). Input your Token and Chat ID.
 - **STEP 4**: Return to the main menu and select **(B) START SCAN**.
 - **STEP 5**: Select your Operation Mode (Series or File) and choose your Attack Method (A or B).
 - **STEP 6**: Monitor your console and Telegram bot for incoming success hits!
@@ -66,7 +66,7 @@ python scan.py
 
 ### 💻 For Windows
 1.  **Download Python**: Ensure you have Python 3.11+ from [Python.org](https://www.python.org/).
-2.  **Clone / Download**: Download the project as a ZIP or use Git:
+2.  **Clone / Download**: Download the project through Git:
     ```powershell
     git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
     cd PTMEDIA-OLD-FB
@@ -79,7 +79,6 @@ python scan.py
     ```powershell
     python scan.py
     ```
-
 
 ---
 
