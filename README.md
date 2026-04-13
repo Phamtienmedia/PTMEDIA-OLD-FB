@@ -32,9 +32,10 @@ PTMEDIA V3.0 is a high-speed, multi-threaded tool built specifically for scannin
 
 Follow these steps for the best experience:
 
-- **STEP 1**: Ensure your device has Python 3.11+ installed.
-- **STEP 2**: Activate **CLOUDFLARE 1.1.1.1 VPN** before running the tool (Mandatory for IP bypass).
+- **STEP 1**: Ensure your device has **Python 3.13** installed.
+- **STEP 2**: Activate **CLOUDFLARE 1.1.1.1 VPN** before running the tool (Mandatory for both Windows & Android to bypass IP blocks).
 - **STEP 3**: Open the **(A) SETTINGS** menu if you want to use Telegram (Optional). Enter your Token and Chat ID.
+
 - **STEP 4**: Select **(B) START SCAN** from the main menu.
 - **STEP 5**: Choose your scanning mode and attack method.
 - **STEP 6**: Monitor the console or your Telegram bot for update results.
@@ -44,9 +45,11 @@ Follow these steps for the best experience:
 ## 📥 INSTALLATION GUIDE
 
 ### For Android (Termux)
+- Recommended: **Python 3.13**
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git -y
+
 git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
 cd PTMEDIA-OLD-FB
 pip install requests beautifulsoup4 urllib3
@@ -54,8 +57,10 @@ python scan.py
 ```
 
 ### For Windows
-1.  **Install Python**: Download from [Python.org](https://www.python.org/).
-2.  **Download Tool**:
+1.  **Install Python**: Download and install **Python 3.13** from [Python.org](https://www.python.org/).
+2.  **VPN**: Install and activate **Cloudflare 1.1.1.1** for Windows (Mandatory).
+3.  **Download Tool**:
+
     ```powershell
     git clone https://github.com/Phamtienmedia/PTMEDIA-OLD-FB
     cd PTMEDIA-OLD-FB
