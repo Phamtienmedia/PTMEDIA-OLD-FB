@@ -19,7 +19,14 @@ PTMEDIA V3.0 is a high-speed, multi-threaded tool built specifically for scannin
 
 ---
 
+## 📅 PROOF OF SUCCESS
+Below is the real-time result from the PTMEDIA engine. High success rate guaranteed.
+![Real-time Hits](results.png)
+
+---
+
 ## 🎮 OPERATING MODES
+
 
 1.  **OPTION A: AUTO DISCOVERY (SERIES)**
     - Automatically targets UIDs based on specific historical year ranges: **2004-2007**, **2009**, **2010-2014**, and **Mixed Series**.
